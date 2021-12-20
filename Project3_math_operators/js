@@ -1,0 +1,24 @@
+function addition_Function(){
+    var addition = 4+3;
+    document.getElementById("Math").innerHTML="4 + 3 =" + addition;
+}
+function subtraction_Function(){
+    var subtraction =15 - 7;
+    document.getElementById("Math0").innerHTML="15 - 7 =" + subtraction;
+}
+function multiplication_Function(){
+    var multiplication =8 * 5;
+    document.getElementById("Math1").innerHTML="8 * 5 =" + multiplication;
+}
+function division_Function(){
+    var division =100 / 2;
+    document.getElementById("Math2").innerHTML="100 / 2 =" + division;
+}
+function modulus_Operator(){
+    console.log(15 % 2);
+    document.getElementById("Math3").innerHTML="100 % 2 =" + console.log;
+}
+function random_Function(){
+    window.alert=(Math.random() * 200);
+    document.getElementById("Math4").innerHTML =Math.floor(Math.random() * 200);
+}
