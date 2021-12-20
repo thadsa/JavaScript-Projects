@@ -1,4 +1,4 @@
-function My_Base_Function() {
+function My_Best_Function() {
     window.alert("Click ok to get the answer");
     var str = "My favourite color is Black!";
     var result = str.fontcolor("black")
