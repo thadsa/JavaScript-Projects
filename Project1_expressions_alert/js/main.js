@@ -5,6 +5,9 @@ function My_Best_Function() {
     document.getElementById("Color_Text").innerHTML=result
 }
 function My_last_Function(){
-    document.write("Welcome to the my javascript site!!!")
+    document.write("Volvo!!!");
+    var str ="My car name is?"
+    var carname ="Volvo"
+    document.getElementById("Car-name").innerHTML = carName;
    /* So basically I add windows.alert(), document.write(), color in JS */
 }
