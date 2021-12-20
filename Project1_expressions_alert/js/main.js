@@ -5,6 +5,6 @@ function My_Best_Function() {
     document.getElementById("Color_Text").innerHTML=result
 }
 function My_last_Function(){
-    document.write("Welcome to the my JavaScript site!!!")= str.fontcolor("Green");
+    document.write("Thanks for visiting my site!!!")= str.fontcolor("red");
    /* So basically I add windows.alert(), document.write(), color in JS */
 }

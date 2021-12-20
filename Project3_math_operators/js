@@ -15,10 +15,15 @@ function division_Function(){
     document.getElementById("Math2").innerHTML="100 / 2 =" + division;
 }
 function modulus_Operator(){
-    console.log(100 % 2);
-    document.getElementById("Math3").innerHTML="100 % 2 =" + console.log;
+    var operator =(13 % 2);
+    document.getElementById("Math3").innerHTML="100 % 2 =" + operator;
 }
 function random_Function(){
     window.alert=(Math.random() * 200);
     document.getElementById("Math4").innerHTML =Math.floor(Math.random() * 200);
+}
+function Increment_Operator(){
+    var  x =3;
+     x++;
+   document.getElementById("Math5").innerHTML = x;
 }
