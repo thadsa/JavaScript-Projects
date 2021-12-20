@@ -1,22 +1,22 @@
 function my_Dictionary(){
-    var Flowers = {
+    var Flower = {
         Species:"Rose",
         Color:"Red",
-        Breed:"Labrador",
-        Age:25,
-        Sound:"Meaaaa!"
+        Breed:"French rose",
+        Age:15,
+        Sound:"Booooooo!"
     }
-    document.getElementById("Dictionary").innerHTML=Animal.Sound
+    document.getElementById("Dictionary").innerHTML=Flower.Sound
 }
 function my_Dictionarys(){
-    var Food = {
-        Species:"Rotti",
-        Color:"Black",
-        Breed:"Sambal",
-        Age:50,
-        Sound:"Boooooo!"
+    var Fruit = {
+        Species:"Mango",
+        Color:"Yellow",
+        Breed:"Haden",
+        Age:30,
+        Sound:"ohhhhhhh!"
     }
-    delete Food.Sound;
-    document.getElementById("Dictionarys").innerHTML=Food.Sound
+    delete Fruit.Sound;
+    document.getElementById("Dictionarys").innerHTML=Fruit.Sound
 }
 /*I was add the code for undefined and dictionary with sound function*/
