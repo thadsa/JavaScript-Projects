@@ -1,6 +1,6 @@
 var X = 10;
 function Add_numbers_1() {
-    document.write(20 + X + "<br>");
+    document.write(10 + X + "<br>");
 }
 function Add_numbers_2() {
     document.write(X + 100);
