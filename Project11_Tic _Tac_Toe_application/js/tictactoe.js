@@ -45,14 +45,14 @@ function checkWinConditions() {
     else if (arrayIncludes('2X', '5X', '8X')) { drawWinLine (508, 50, 508, 558);}
     else if (arrayIncludes('6X', '4X', '2X')) { drawWinLine (100, 508, 510, 90);}
     else if (arrayIncludes('0X', '4X', '8X')) { drawWinLine (100, 100, 520, 520);}
-    else if (arrayIncludes('0o', '1o', '2o')) { drawWinLine (50, 100, 558, 100);}
+    else if (arrayIncludes('00', '10', '20')) { drawWinLine (50, 100, 558, 100);}
     else if (arrayIncludes('30', '40', '50')) { drawWinLine (50, 304, 558, 304);}
     else if (arrayIncludes('60', '70', '80')) { drawWinLine (50, 508, 558, 508);}
-    else if (arrayIncludes('0o', '30', '60')) { drawWinLine (100, 50, 100, 558);}
+    else if (arrayIncludes('00', '30', '60')) { drawWinLine (100, 50, 100, 558);}
     else if (arrayIncludes('10', '40', '70')) { drawWinLine (304, 50, 304, 558);}
     else if (arrayIncludes('20', '50', '80')) { drawWinLine (508, 50, 508, 558);}
     else if (arrayIncludes('60', '40', '20')) { drawWinLine (100, 508, 510, 90);}
-    else if (arrayIncludes('0o', '40', '80')) { drawWinLine (100, 100, 520, 520);}
+    else if (arrayIncludes('00', '40', '80')) { drawWinLine (100, 100, 520, 520);}
     else if (selectedSquares.length >= 9) {
         audio('./media/tie Game.mp3');
         setTimeout (function() { resetGame();}, 1000);
