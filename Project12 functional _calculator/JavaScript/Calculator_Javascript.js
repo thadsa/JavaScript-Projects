@@ -63,9 +63,9 @@
         Calculator.operator = null;
     }
         
-        function Update_Display() {
-            const display = document.querySelector('.calculator-screen'); 
-            display.value = Calculator.Display_Value;
+            function Update_Display() {
+                const display = document.querySelector('.calculator-screen'); 
+                display.value = Calculator.Display_Value;
         }
      
         Update_Display(); 
