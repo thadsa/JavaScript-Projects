@@ -1,3 +1,12 @@
+body {
+font-family: Verdana, sans-serif;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
 .row > .column {
   padding: 0 8px;
 }
@@ -55,6 +64,10 @@
   display: none;
 }
 
+.cursor {
+  cursor: pointer;
+}
+
 .prev,
 .next {
   cursor: pointer;
@@ -77,6 +90,7 @@
   border-radius: 3px 0 0 3px;
 }
 
+.prev:hover,
 .next:hover {
   background-color: rgba(0, 0, 0, 0.8);
 }
@@ -89,6 +103,10 @@
   top: 0;
 }
 
+img {
+  margin-bottom: -4px;
+}
+
 .caption-container {
   text-align: center;
   background-color: black;
@@ -96,7 +114,7 @@
   color: white;
 }
 
-img.demo {
+.demo {
   opacity: 0.6;
 }
 
