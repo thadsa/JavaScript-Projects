@@ -22,8 +22,8 @@ function random_Function(){
     window.alert=(Math.random() * 200);
     document.getElementById("Math4").innerHTML =Math.floor(Math.random() * 200);
 }
-function Increment_Operator(){
-    var  x =3;
-     x++;
-   document.getElementById("Math5").innerHTML = x;
+function random_Function(){
+let x = 5;
+x++;
+document.getElementById("Math5").innerHTML =x++;
 }
