@@ -1,29 +1,37 @@
 function addition_Function(){
-    var addition = 4+3;
-    document.getElementById("Math").innerHTML="4 + 3 =" + addition;
+    var addition = 4 + 4;
+    document.getElementById("Math").innerHTML="4 + 4 =" + addition;
 }
 function subtraction_Function(){
-    var subtraction =15 - 7;
-    document.getElementById("Math0").innerHTML="15 - 7 =" + subtraction;
+    var subtraction =30 - 15;
+    document.getElementById("Math0").innerHTML="30 - 15 =" + subtraction;
 }
 function multiplication_Function(){
-    var multiplication =8 * 5;
-    document.getElementById("Math1").innerHTML="8 * 5 =" + multiplication;
+    var multiplication =25 * 5;
+    document.getElementById("Math1").innerHTML="25 * 5 =" + multiplication;
 }
 function division_Function(){
-    var division =100 / 2;
-    document.getElementById("Math2").innerHTML="100 / 2 =" + division;
+    var division =100 / 5;
+    document.getElementById("Math2").innerHTML="100 / 5 =" + division;
 }
 function modulus_Operator(){
     var operator =(13 % 2);
     document.getElementById("Math3").innerHTML="100 % 2 =" + operator;
 }
 function random_Function(){
-    window.alert=(Math.random() * 200);
-    document.getElementById("Math4").innerHTML =Math.floor(Math.random() * 200);
+    window.alert=(Math.random() * 75);
+    document.getElementById("Math4").innerHTML =Math.floor(Math.random() * 75);
 }
-function random_Function(){
-let x = 5;
-x++;
-document.getElementById("Math5").innerHTML =x++;
+function increment_Operator() {
+    var X=5
+    X++;
+    document.getElementById("Math5");
+    document.write(X); 
 }
+function decrement_Operator() {
+    var Y=7
+    Y--;
+    document.getElementById("Math6");
+    document.write(Y); 
+ }
+    
